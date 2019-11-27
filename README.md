@@ -2,12 +2,12 @@
 
 Projetistas:
 
-Victor Matheus Alves de Oliveira
+ -Victor Matheus Alves de Oliveira
 
-Nathan Oliveira Santos
+ -Nathan Oliveira Santos
 
 Developers:
 
-Victor Matheus Alves de Oliveira
+ -Victor Matheus Alves de Oliveira
 
-Nathan Oliveira Santos
+ -Nathan Oliveira Santos
