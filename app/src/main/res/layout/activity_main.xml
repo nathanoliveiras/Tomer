@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/colorAccent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtFrase"
+        android:layout_width="320dp"
+        android:layout_height="420dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/roundedborder"
+        android:textAlignment="viewStart"
+        android:textColor="#FFFFFF"
+        android:textSize="35sp"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnLike"
+        android:layout_width="106dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="575dp"
+        android:layout_marginEnd="50dp"
+        android:background="@color/colorPrimaryDark"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:onClick="like"
+        android:text="GOSTEI"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnUnlike"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="106dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="575dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:onClick="dislike"
+        android:text="NÃO GOSTEI"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
